@@ -8,5 +8,6 @@
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/com.cfm.jgprolog.gnuprolog"/>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/com.cfm.productline.io"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/com.cfm.productline.compiler"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.variamos.refas.concepts"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

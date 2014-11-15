@@ -176,7 +176,7 @@ public class PrologSolver implements Solver{
 		//Generate the product line program.
 		Hlcl2GnuPrologExact hlcl2gnuProlog = new Hlcl2GnuPrologExact();
 		
-		HlclProgram prog = Pl2Hlcl.transformExact(pl);
+		HlclProgram prog = Pl2Hlcl.transformExact((ProductLine)pl);
 		PrologTransformParameters params = addParametersToProgram(prog, options);
 
 		String str = hlcl2gnuProlog.transform(prog, params);

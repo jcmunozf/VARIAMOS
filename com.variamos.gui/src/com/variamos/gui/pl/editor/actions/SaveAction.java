@@ -343,10 +343,10 @@ public class SaveAction extends AbstractEditorAction {
 
 	private void generatePrologFile(AbstractModel pl, String filename) throws IOException, FeatureModelException {
 		SXFMWriter writer = new SXFMWriter();
-		System.out.println(writer.getSXFMContent(pl));
+		System.out.println(writer.getSXFMContent((ProductLine)pl));
 		
 		File f = File.createTempFile("test", "tmp");
-		writer.writeSXFM(pl, f);
+		writer.writeSXFM((ProductLine)pl, f);
 		
 		FeatureModel featureModel = new XMLFeatureModel(
 				f.getAbsolutePath(),
