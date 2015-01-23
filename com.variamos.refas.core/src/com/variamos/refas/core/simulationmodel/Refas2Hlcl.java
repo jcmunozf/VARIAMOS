@@ -605,16 +605,16 @@ public class Refas2Hlcl implements IntRefas2Hlcl {
 
 	public void updateDeadConcepts(List<String> deadIdentifiers) {
 		for (InstVertex instVertex : refas.getVariabilityVertex().values()) {
-		/*	MetaVertex metaElement = ((MetaVertex) instVertex
+			MetaVertex metaElement = ((MetaVertex) instVertex
 					.getTransSupportMetaElement());
 			IntSemanticElement semElement = metaElement
 					.getTransSemanticConcept();
 			while (semElement != null && semElement.getIdentifier() != null
-					&& !semElement.getIdentifier().equals("semGeneralElement"))
+					&& !semElement.getIdentifier().equals("SemGeneralElement"))
 				semElement = semElement.getParent();
 			if (semElement != null && semElement.getIdentifier() != null
-					&& semElement.getIdentifier().equals("semGeneralElement")) {
-					*/
+					&& semElement.getIdentifier().equals("SemGeneralElement")) {
+					
 				InstAttribute instAttributeDead = instVertex
 						.getInstAttribute("Dead");
 				InstAttribute instAttributeNotSel = instVertex
@@ -635,7 +635,7 @@ public class Refas2Hlcl implements IntRefas2Hlcl {
 					instAttributeNotAva.setValue(false);
 				}
 			}
-	//	}
+		}
 	}
 
 }
