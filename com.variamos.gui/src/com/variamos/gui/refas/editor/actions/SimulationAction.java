@@ -27,7 +27,7 @@ public class SimulationAction extends AbstractEditorAction {
 		 */
 	public void actionPerformed(ActionEvent e) {
 		VariamosGraphEditor editor = getEditor(e);
-		editor.cleanNotificationBar();
+		editor.clearNotificationBar();
 		if (clean)
 			editor.cleanSimulation();
 		else

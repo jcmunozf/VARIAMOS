@@ -15,7 +15,7 @@ import com.variamos.refas.core.simulationmodel.Refas2Hlcl;
 public class VerificationAction extends AbstractEditorAction {
 
 	public VerificationAction() {
-		this.putValue(SHORT_DESCRIPTION, "Verify false optionals and root");
+		this.putValue(SHORT_DESCRIPTION, mxResources.get("verifyElements"));
 	}
 
 	/**
@@ -23,7 +23,7 @@ public class VerificationAction extends AbstractEditorAction {
 		 */
 	public void actionPerformed(ActionEvent e) {
 		VariamosGraphEditor editor = getEditor(e);
-		editor.cleanNotificationBar();
+		editor.clearNotificationBar();
 		//editor.verifyErrors();
 		editor.verify();
 	}
