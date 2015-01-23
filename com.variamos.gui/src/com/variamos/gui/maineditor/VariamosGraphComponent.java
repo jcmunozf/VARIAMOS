@@ -118,6 +118,7 @@ public class VariamosGraphComponent extends mxGraphComponent {
 									InstConcept instConcept = (InstConcept) val;
 									String backtop = null, backbottom = null, backtophint = null, backbottomhint = null;
 
+									
 									String forced = "/com/variamos/gui/refas/editor/images/sim_forced.png";
 									String validation = "/com/variamos/gui/refas/editor/images/sim_validation.png";
 									String altern = "/com/variamos/gui/refas/editor/images/sim_altern.png";

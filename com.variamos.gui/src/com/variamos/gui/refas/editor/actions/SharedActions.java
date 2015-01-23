@@ -421,7 +421,7 @@ public class SharedActions {
 								instAttribute.setAttribute(absAttribute);
 								// if (absAttribute != null)// TODO find a
 								// better
-								// fix
+								// fix 
 								if (instAttribute.getAttributeType().equals(
 										"Boolean")
 										&& instAttribute.getValue() != null

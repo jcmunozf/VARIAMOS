@@ -1403,6 +1403,7 @@ public class VariamosGraphEditor extends BasicGraphEditor {
 		lastSolverInvocations = "";
 	}
 
+	
 	public void clearElementErrors() {
 		refas2hlcl.cleanGUIErrors();
 		this.refresh();

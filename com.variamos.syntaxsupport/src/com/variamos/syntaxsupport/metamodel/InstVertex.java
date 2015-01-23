@@ -196,7 +196,7 @@ public abstract class InstVertex extends InstElement {
 	}
 
 	public abstract String getSupportMetaElementIdentifier();
-
+ 
 
 	public String getInstAttributeFullIdentifier(String insAttributeLocalId) {
 		System.out.println(this.getIdentifier() + insAttributeLocalId);
